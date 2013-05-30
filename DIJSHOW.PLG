@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dijshow - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/dijshow.res" /d "NDEBUG" "D:\DuktoR5\演示：最短路径\dijshow.rc"" 
+Creating temporary file "C:\DOCUME~1\jiangzhw\LOCALS~1\Temp\RSP390.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/dijshow.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\DuktoR5\演示：最短路径\dijshow.cpp"
+"D:\DuktoR5\演示：最短路径\dijshowDoc.cpp"
+"D:\DuktoR5\演示：最短路径\dijshowView.cpp"
+"D:\DuktoR5\演示：最短路径\MainFrm.cpp"
+"D:\DuktoR5\演示：最短路径\NodeObject.cpp"
+"D:\DuktoR5\演示：最短路径\PathObject.cpp"
+"D:\DuktoR5\演示：最短路径\SetNumDlg.cpp"
+"D:\DuktoR5\演示：最短路径\SetWeightDlg.cpp"
+"D:\DuktoR5\演示：最短路径\ShortestPath.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jiangzhw\LOCALS~1\Temp\RSP390.tmp" 
+Creating temporary file "C:\DOCUME~1\jiangzhw\LOCALS~1\Temp\RSP391.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/dijshow.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\DuktoR5\演示：最短路径\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jiangzhw\LOCALS~1\Temp\RSP391.tmp" 
+Creating temporary file "C:\DOCUME~1\jiangzhw\LOCALS~1\Temp\RSP392.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/dijshow.pdb" /machine:I386 /out:"Release/dijshow.exe" 
+".\Release\dijshow.obj"
+".\Release\dijshowDoc.obj"
+".\Release\dijshowView.obj"
+".\Release\MainFrm.obj"
+".\Release\NodeObject.obj"
+".\Release\PathObject.obj"
+".\Release\SetNumDlg.obj"
+".\Release\SetWeightDlg.obj"
+".\Release\ShortestPath.obj"
+".\Release\StdAfx.obj"
+".\Release\dijshow.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\jiangzhw\LOCALS~1\Temp\RSP392.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+dijshow.cpp
+dijshowDoc.cpp
+dijshowView.cpp
+MainFrm.cpp
+NodeObject.cpp
+PathObject.cpp
+D:\DuktoR5\演示：最短路径\PathObject.cpp(45) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+D:\DuktoR5\演示：最短路径\PathObject.cpp(45) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+SetNumDlg.cpp
+SetWeightDlg.cpp
+ShortestPath.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+dijshow.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
